@@ -23,6 +23,12 @@ logging:
 
 #pattern:
 #  dateformat: yyyy-MM-dd HH:mm:ss
+opentracing:
+  jaeger:
+    enabled: true
+    udp-sender:
+      host: 192.168.145.132
+      port: 6831
 
 
 #eureka:

@@ -31,3 +31,9 @@ userservice:
   ribbon:
     NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule # 负载均衡规则
 
+opentracing:
+  jaeger:
+    enabled: true
+    udp-sender:
+      host: 192.168.145.132
+      port: 6831
